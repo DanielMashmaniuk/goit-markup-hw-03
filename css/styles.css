@@ -28,6 +28,10 @@ body { font-family: 'Roboto', sans-serif;
   color: var(--logo-black-color);
 }
 .footer-logo.link {
+  width: 145px;
+height: 31px;
+left: 215px;
+top: 24px;
   color: var(--primary-white-color);
 }
 .header-logo span,
@@ -137,6 +141,7 @@ footer {
   color: var(--title-text-color);
   background-color: var(--secondary-background-color);
   cursor: pointer;
+  border-radius: 4px;
 }
 
 .portfolio-button:hover,
