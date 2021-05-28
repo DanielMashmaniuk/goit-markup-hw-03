@@ -26,6 +26,8 @@ body { font-family: 'Roboto', sans-serif;
   font-size: 26px;
   line-height: 1.19;
   color: var(--logo-black-color);
+  margin-left: 215px;
+  margin-top: 24px;
 }
 .footer-logo.link {
   width: 145px;
@@ -48,6 +50,8 @@ footer {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  display: flex;
+  flex-direction: row-reverse;
 }
 .site-nav .link {
   color: var(--title-text-color);
