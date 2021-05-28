@@ -13,7 +13,8 @@ body { font-family: 'Roboto', sans-serif;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-  background-color: var(--primary-white-color);}
+  background-color: var(--primary-white-color);
+}
 .list {
   list-style: none;}
 .link {
@@ -258,22 +259,24 @@ margin: 0px;
 }
 .footer-address{margin: 0px;
 padding-top: 20px;}
+.footer-logo{padding-top: 60px;}
 
 /* PORTFOLIO */
-.portfolio-button {
-  font-family: inherit;
+.portfolio-button-text {
+  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.6;
+  line-height: 26px;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   background-color: var(--secondary-background-color);
   cursor: pointer;
   border-radius: 4px;
+  font-style: normal;
 }
 
-.portfolio-button:hover,
-.portfolio-button:focus {
+.portfolio-button-text:hover,
+.portfolio-button-text:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
@@ -286,6 +289,62 @@ padding-top: 20px;}
 .work-list .description {
   font-size: 16px;
   line-height: 1.88;
-  color: var(--primary-text-color);
+  color: var(--primary-text-color); 
 }
-.footer-logo{padding-top: 60px;}
+.conteiner{
+  margin-left: 215px;
+  margin-top: 174px;
+}
+.button-section{
+  display: flex;
+  flex-direction: row;
+}
+.portfolio-button-text{
+  padding-left: 22px;
+  padding-right: 22px;
+  border-color: var(--primary-white-color);
+}
+.portfolio-button-left{
+  padding-left: 280px;
+}
+.portfolio-button{
+  margin-left: 8px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+list-style: none;
+border-color: #fff;
+}
+.portfolio-button-text-left{
+  background: #2196F3;
+  color: #fff;
+box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
+border-color: #2196F3;
+}
+.work-list-shadow{
+  border: 1px solid #EEEEEE;
+  width: 370px;
+  padding-left: 0px;
+  box-sizing: border-box;
+  display: block;
+  flex-direction: row;
+  width: 370px;
+  margin-left: 30px;
+}
+.work-list{
+ display: flex;
+ flex-wrap: wrap;
+ width: 1200px;
+}
+.work-list-top{
+  margin-top: 50px;
+}
+.work-list-bottom{
+  margin-bottom: 94px;
+}
+.description-title{
+ padding-left: 24px;
+}
+.description{
+  margin-left: 24px;
+}
